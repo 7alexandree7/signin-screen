@@ -1,0 +1,17 @@
+# Ignorar a pasta node_modules
+node_modules/
+
+# Ignorar logs
+logs/
+*.log
+
+# Ignorar arquivos de lock de pacotes (opcional, depende do seu fluxo de trabalho)
+package-lock.json
+yarn.lock
+
+# Ignorar arquivos de configuração do editor
+.vscode/
+.idea/
+
+# Ignorar cache do npm
+npm-debug.log

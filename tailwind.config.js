@@ -17,6 +17,9 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['var(--font-family-roboto)']
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
