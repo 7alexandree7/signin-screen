@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 
+* {
+  font-family: cursive;
+}
+
+
 @layer base {
   :root {
     --font-family: 'Roboto'
